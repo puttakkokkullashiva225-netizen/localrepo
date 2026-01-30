@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body align="center" bgcolor="#D3D3D3">
+
+    <h1>Login Form</h1>
+    <div id="form">
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"  placeholder="spongebob" minlength="6" maxlength="15"><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="xxxxxxx" minlength="6" required><br><br>
+        
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+    </form>
+    </div> 
+</body>
+</html>
